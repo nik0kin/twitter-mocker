@@ -1,0 +1,34 @@
+{
+  "name": "twitter-shouter",
+  "version": "0.1.0",
+  "description": "An annoying person that follows you around and shouts at you",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "twit": "1.1.12",
+
+    "q": "~0.9.7",
+    "winston": "latest",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "grunt-cli": "*",
+    "grunt-simple-mocha": "~0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nik0kin/twitter-shouter"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "@nikpoklitar",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nik0kin/twitter-shouter/issues"
+  }
+}
